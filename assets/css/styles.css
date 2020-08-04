@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+}
+
+.promo {
+  text-align: center;
+  padding: 40px;
+}
+
+.promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  min-height: 300px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 300px) {
+  .promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+.jumbotron p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Montserrat Alternates';
+}
+
+.welcome {
+  text-align: center;
+  padding: 50px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.jumbotron h1 {
+  font-weight: 800;
+}
+
+.img-gallery .img-star {
+  max-height: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 768) {
+  .img-fluid {
+    max-height: 200px;
+    text-align: center;
+    padding: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  img-star-content {
+    padding: 50px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #reverse-image {
+    order: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  #reverse-content {
+    order: 2;
+  }
+}
+
+.col.heading-gallery {
+  padding: 40px;
+}
+
+.title-logo {
+  margin-left: 20px;
+}
+
+@media (max-width: 576px) {
+  .title-logo {
+    margin-left: 15px;
+    max-width: 100px;
+  }
+}
+
